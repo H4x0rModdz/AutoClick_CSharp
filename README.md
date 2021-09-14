@@ -1,6 +1,6 @@
 # AutoClick_CSharp
 
-How to use:
+How to use:                            
 1- Open the solution and press "F5"                            
 2- Configure the interval (put in ms)                                                                                    
 3- Click on the button "Enable" and mark true for the script                                                        
