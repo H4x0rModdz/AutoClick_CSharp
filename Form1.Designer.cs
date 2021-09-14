@@ -29,6 +29,7 @@ namespace AutoClick
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.chckbxEnabled = new System.Windows.Forms.CheckBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -39,23 +40,27 @@ namespace AutoClick
             // chckbxEnabled
             // 
             this.chckbxEnabled.AutoSize = true;
-            this.chckbxEnabled.Location = new System.Drawing.Point(12, 153);
+            this.chckbxEnabled.BackColor = System.Drawing.Color.Transparent;
+            this.chckbxEnabled.Font = new System.Drawing.Font("Sitka Text", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chckbxEnabled.ForeColor = System.Drawing.Color.Aqua;
+            this.chckbxEnabled.Location = new System.Drawing.Point(12, 108);
             this.chckbxEnabled.Name = "chckbxEnabled";
-            this.chckbxEnabled.Size = new System.Drawing.Size(59, 17);
+            this.chckbxEnabled.Size = new System.Drawing.Size(75, 25);
             this.chckbxEnabled.TabIndex = 0;
             this.chckbxEnabled.Text = "Enable";
-            this.chckbxEnabled.UseVisualStyleBackColor = true;
+            this.chckbxEnabled.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 38);
+            this.textBox1.Location = new System.Drawing.Point(12, 45);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(118, 38);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(118, 43);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -66,9 +71,12 @@ namespace AutoClick
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 22);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Aqua;
+            this.label1.Location = new System.Drawing.Point(12, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 13);
+            this.label1.Size = new System.Drawing.Size(105, 22);
             this.label1.TabIndex = 3;
             this.label1.Text = "Interval (ms)";
             // 
@@ -80,11 +88,15 @@ namespace AutoClick
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(350, 243);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(350, 182);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.chckbxEnabled);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "H4x0r - AutoClick";
             this.Load += new System.EventHandler(this.Form1_Load);

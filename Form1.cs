@@ -79,11 +79,12 @@ namespace AutoClick
         {
             if (!int.TryParse(textBox1.Text, out parsedValue))
             {
-                MessageBox.Show("Please enter a number idiot!");
+                MessageBox.Show("Please enter a number correct, idiot!");
                 return;
             } else
             {
                 intervals = int.Parse(textBox1.Text);
+                MessageBox.Show("New interval successfully added. You can use it again now!");
             }
         }
     }
