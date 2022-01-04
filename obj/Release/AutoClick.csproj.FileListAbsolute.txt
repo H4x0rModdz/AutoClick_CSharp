@@ -1,0 +1,10 @@
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\bin\Release\AutoClick.exe.config
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\bin\Release\AutoClick.exe
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\bin\Release\AutoClick.pdb
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Release\AutoClick.csproj.AssemblyReference.cache
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Release\AutoClick.AutoClickProj.resources
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Release\AutoClick.Properties.Resources.resources
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Release\AutoClick.csproj.GenerateResource.cache
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Release\AutoClick.csproj.CoreCompileInputs.cache
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Release\AutoClick.exe
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Release\AutoClick.pdb

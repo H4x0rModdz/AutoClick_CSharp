@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.31613.86
+VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoClick", "AutoClick\AutoClick.csproj", "{A587B1B5-1A99-491C-9262-E4526C43FEA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoClick", "AutoClick.csproj", "{A587B1B5-1A99-491C-9262-E4526C43FEA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AC059522-6203-44F7-A15A-C7396AD0399E}
+		SolutionGuid = {EB519688-8DD6-4C74-971E-9D56F1581A61}
 	EndGlobalSection
 EndGlobal

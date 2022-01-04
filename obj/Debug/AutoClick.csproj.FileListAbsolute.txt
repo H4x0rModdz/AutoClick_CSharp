@@ -8,3 +8,13 @@ C:\Users\edelu\source\repos\AutoClick\AutoClick\obj\Debug\AutoClick.csproj.Gener
 C:\Users\edelu\source\repos\AutoClick\AutoClick\obj\Debug\AutoClick.csproj.CoreCompileInputs.cache
 C:\Users\edelu\source\repos\AutoClick\AutoClick\obj\Debug\AutoClick.exe
 C:\Users\edelu\source\repos\AutoClick\AutoClick\obj\Debug\AutoClick.pdb
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\bin\Debug\AutoClick.exe.config
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\bin\Debug\AutoClick.exe
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\bin\Debug\AutoClick.pdb
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Debug\AutoClick.csproj.AssemblyReference.cache
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Debug\AutoClick.AutoClickProj.resources
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Debug\AutoClick.Properties.Resources.resources
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Debug\AutoClick.csproj.GenerateResource.cache
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Debug\AutoClick.csproj.CoreCompileInputs.cache
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Debug\AutoClick.exe
+C:\Users\Meri\Desktop\AutoClick_CSharp-master\obj\Debug\AutoClick.pdb
