@@ -63,10 +63,10 @@ namespace AutoClick
             {
                 if (chckbxEnabled.Checked)
                 {
-                    if (GetAsyncKeyState(Keys.Down) < 0)
+                    if (GetAsyncKeyState(Keys.Down) < 0) // if key down is pressed = AutoClick Off
                     {
                         Click = false;
-                    } else if (GetAsyncKeyState(Keys.Up) < 0)
+                    } else if (GetAsyncKeyState(Keys.Up) < 0) //if key up is pressed = AutoClick On
                     {
                         Click = true;
                     }
@@ -98,14 +98,14 @@ namespace AutoClick
         {
             try
             {
-                foreach (Process proc in Process.GetProcessesByName("AutoClick"))
+                foreach (Process proc in Process.GetProcessesByName("AutoClick")) // if I close the program = kill the background process
                 {
                     proc.Kill();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error: " + ex);
+                MessageBox.Show("Error: " + ex); // if I close but the process not die = exception message
             }
         }
     }
